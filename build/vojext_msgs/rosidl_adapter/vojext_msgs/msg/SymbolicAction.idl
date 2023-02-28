@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/SymbolicAction.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "vojext_msgs/msg/GraspFacts.idl"
+
+module vojext_msgs {
+  module msg {
+    struct SymbolicAction {
+      std_msgs::msg::Header header;
+
+      string action_type;
+
+      sequence<string> target_id;
+
+      sequence<vojext_msgs::msg::GraspFacts> grasp_facts;
+
+      @verbatim (language="comment", text=
+        " TODO handover")
+      string target_pose;
+    };
+  };
+};

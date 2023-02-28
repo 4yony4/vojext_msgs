@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/Person.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "vojext_msgs/msg/Hand.idl"
+
+module vojext_msgs {
+  module msg {
+    struct Person {
+      std_msgs::msg::Header header;
+
+      string result_dynamic_left;
+
+      string result_dynamic_right;
+
+      string result_static_left;
+
+      string result_static_right;
+
+      string final_result_left;
+
+      string final_result_right;
+
+      sequence<vojext_msgs::msg::Hand> left_hand;
+
+      sequence<vojext_msgs::msg::Hand> right_hand;
+    };
+  };
+};

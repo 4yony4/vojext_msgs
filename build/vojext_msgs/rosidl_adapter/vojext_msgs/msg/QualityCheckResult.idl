@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/QualityCheckResult.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module vojext_msgs {
+  module msg {
+    struct QualityCheckResult {
+      std_msgs::msg::Header header;
+
+      uint32 object_id;
+
+      @verbatim (language="comment", text=
+        " True means component is OK")
+      boolean result;
+
+      @verbatim (language="comment", text=
+        " Error message (when result is set to False)")
+      string msg;
+    };
+  };
+};

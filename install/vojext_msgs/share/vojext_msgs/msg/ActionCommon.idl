@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/ActionCommon.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module vojext_msgs {
+  module msg {
+    struct ActionCommon {
+      std_msgs::msg::Header header;
+
+      string action_type;
+
+      sequence<string> target_id;
+
+      sequence<string> force_limits;
+    };
+  };
+};

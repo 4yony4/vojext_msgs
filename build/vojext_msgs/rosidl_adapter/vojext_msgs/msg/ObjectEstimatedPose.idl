@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/ObjectEstimatedPose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+#include "std_msgs/msg/Header.idl"
+
+module vojext_msgs {
+  module msg {
+    struct ObjectEstimatedPose {
+      std_msgs::msg::Header header;
+
+      sensor_msgs::msg::PointCloud2 point_cloud;
+
+      geometry_msgs::msg::Pose estimated_pose;
+
+      int16 id;
+
+      string sclass;
+    };
+  };
+};

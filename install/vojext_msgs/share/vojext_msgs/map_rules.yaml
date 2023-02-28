@@ -1,0 +1,6 @@
+-
+  ros1_package_name: 'yarp'
+  ros1_message_name: 'Vjxoutput'
+  ros2_package_name: 'vojext_msgs'
+  ros2_message_name: 'Vjxoutput'
+

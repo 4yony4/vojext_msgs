@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/GraspTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module vojext_msgs {
+  module msg {
+    struct GraspTrajectory {
+      std_msgs::msg::Header header;
+
+      string ee_frame_id;
+
+      sequence<geometry_msgs::msg::Pose> hand_poses;
+
+      sequence<sensor_msgs::msg::JointState> fingers_states;
+    };
+  };
+};

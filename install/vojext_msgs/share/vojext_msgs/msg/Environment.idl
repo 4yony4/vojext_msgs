@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/Environment.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "vojext_msgs/msg/PhysicalObject.idl"
+
+module vojext_msgs {
+  module msg {
+    struct Environment {
+      @verbatim (language="comment", text=
+        " standard ROS header")
+      std_msgs::msg::Header header;
+
+      uint32 timestamp;
+
+      string semantictag;
+
+      sequence<vojext_msgs::msg::PhysicalObject> objects_list;
+    };
+  };
+};

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/HumanParameterIntention.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "vojext_msgs/msg/HumanMotion.idl"
+
+module vojext_msgs {
+  module msg {
+    struct HumanParameterIntention {
+      std_msgs::msg::Header header;
+
+      string motion_prediction;
+
+      float engagement_level;
+
+      float cognitive_level;
+
+      float mood_level;
+
+      sequence<vojext_msgs::msg::HumanMotion> humanmotion_list;
+    };
+  };
+};

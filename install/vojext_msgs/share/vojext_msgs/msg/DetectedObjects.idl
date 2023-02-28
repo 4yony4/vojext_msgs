@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vojext_msgs/msg/DetectedObjects.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+#include "vojext_msgs/msg/DetectedObject.idl"
+
+module vojext_msgs {
+  module msg {
+    struct DetectedObjects {
+      std_msgs::msg::Header header;
+
+      sequence<vojext_msgs::msg::DetectedObject> detected_objects;
+
+      sensor_msgs::msg::Image rgb_image;
+    };
+  };
+};
