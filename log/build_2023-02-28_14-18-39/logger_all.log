@@ -1,0 +1,122 @@
+[0.672s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.672s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe08d1fc280>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe08d1fc280>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe08d109b80>)
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.753s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.771s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'vojext_msgs'
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.791s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vision_msgs/install
+[0.793s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 180 installed packages in /opt/ros/galactic
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'cmake_target' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'vojext_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.826s] DEBUG:colcon.colcon_core.verb:Building package 'vojext_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs', 'merge_install': False, 'path': '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.827s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.834s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs' with build type 'ament_cmake'
+[0.834s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs'
+[0.839s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs -DCMAKE_INSTALL_PREFIX=/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs -DCMAKE_INSTALL_PREFIX=/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs
+[2.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs -- -j16 -l16
+[15.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs -- -j16 -l16
+[15.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs
+[15.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vojext_msgs)
+[15.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/build/vojext_msgs
+[15.693s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs' for CMake module files
+[15.693s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs' for CMake config files
+[15.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('vojext_msgs', 'cmake_prefix_path')
+[15.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/cmake_prefix_path.ps1'
+[15.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/cmake_prefix_path.dsv'
+[15.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/cmake_prefix_path.sh'
+[15.696s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/lib'
+[15.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('vojext_msgs', 'ld_library_path_lib')
+[15.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/ld_library_path_lib.ps1'
+[15.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/ld_library_path_lib.dsv'
+[15.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/ld_library_path_lib.sh'
+[15.699s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/bin'
+[15.699s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/lib/pkgconfig/vojext_msgs.pc'
+[15.699s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/lib/python3.8/site-packages'
+[15.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('vojext_msgs', 'pythonpath')
+[15.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/pythonpath.ps1'
+[15.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/pythonpath.dsv'
+[15.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/pythonpath.sh'
+[15.701s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/bin'
+[15.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.ps1'
+[15.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.dsv'
+[15.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.sh'
+[15.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.bash'
+[15.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.zsh'
+[15.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/colcon-core/packages/vojext_msgs)
+[15.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vojext_msgs)
+[15.983s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs' for CMake module files
+[15.983s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs' for CMake config files
+[15.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('vojext_msgs', 'cmake_prefix_path')
+[15.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/cmake_prefix_path.ps1'
+[15.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/cmake_prefix_path.dsv'
+[15.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/cmake_prefix_path.sh'
+[15.986s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/lib'
+[15.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('vojext_msgs', 'ld_library_path_lib')
+[15.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/ld_library_path_lib.ps1'
+[15.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/ld_library_path_lib.dsv'
+[15.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/ld_library_path_lib.sh'
+[15.989s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/bin'
+[15.989s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/lib/pkgconfig/vojext_msgs.pc'
+[15.989s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/lib/python3.8/site-packages'
+[15.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('vojext_msgs', 'pythonpath')
+[15.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/pythonpath.ps1'
+[15.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/pythonpath.dsv'
+[15.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/hook/pythonpath.sh'
+[15.991s] Level 1:colcon.colcon_core.environment:checking '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/bin'
+[15.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.ps1'
+[15.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.dsv'
+[15.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.sh'
+[15.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.bash'
+[15.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/vojext_msgs/package.zsh'
+[15.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/vojext_msgs/share/colcon-core/packages/vojext_msgs)
+[15.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.995s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.012s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/local_setup.ps1'
+[16.015s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/_local_setup_util_ps1.py'
+[16.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/setup.ps1'
+[16.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/local_setup.sh'
+[16.017s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/_local_setup_util_sh.py'
+[16.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/setup.sh'
+[16.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/local_setup.bash'
+[16.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/setup.bash'
+[16.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/local_setup.zsh'
+[16.020s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jbarmagen/Dev/PROJECTS/VOJEXT/ROS2/vojext_msgs/install/setup.zsh'

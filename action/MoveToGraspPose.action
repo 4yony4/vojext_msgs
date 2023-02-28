@@ -1,5 +1,5 @@
-april_msgs/ActionCommon action_common
-april_msgs/GraspTrajectory[] grasp_trajectories
+vojext_msgs/ActionCommon action_common
+vojext_msgs/GraspTrajectory[] grasp_trajectories
 ---
 bool success
 string message

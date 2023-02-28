@@ -1,21 +1,36 @@
 # vojext_msgs
-Repository containing msg, srv and action files of vojext system.
+Repository containing msg, srv and action files of VOJEXT system.
+
+## Contact info @ IIT: 
+
+* [Giulia Belgiovine](mailto:Giulia.Belgiovine@iit.it)
+
+* [Jonathan Bar-Magen Numhauser](mailto:jonathan.barmagen@iit.it)
+
+* [Francesco Rea](mailto:Francesco.Rea@iit.it)
 
 ## Instructions
 
-This branch of vojext Messages allow us to have noth ROS1 and ROS2 in the same Workspace. 
+This branch of Vojext Messages allow us to have noth ROS1 and ROS2 in the same Workspace. 
+
+### IMPORTANT!! DEPENDENCIES
+
+Depends on external libraries (need to be downloaded to compile both environments):
+
+* [vision_msgs](https://github.com/ros-perception/vision_msgs)
 
 ## ROS1 Build
 
-To compile for ROS1 run on base folder of vojext_Msgs:
+To compile for ROS1 run on base folder of Vojext_Msgs:
 
 ```sh
 . /opt/ros/noetic/setup.sh && catkin_make
 ```
 
+
 ## ROS2 Build
 
-To compile for ROS2 run on base folder of vojext_Msgs:
+To compile for ROS2 run on base folder of Vojext_Msgs:
 
 ```sh
 . /opt/ros/galactic/setup.sh && colcon build

@@ -1,4 +1,4 @@
 ---
-april_msgs/SymbolicAction symbolic_action
+vojext_msgs/SymbolicAction symbolic_action
 bool success
 string message

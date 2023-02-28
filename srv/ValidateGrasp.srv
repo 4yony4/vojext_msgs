@@ -1,4 +1,4 @@
 string object_frame_id
-april_msgs/GraspTrajectory[] grasp_poses
+vojext_msgs/GraspTrajectory[] grasp_poses
 ---
-april_msgs/GraspTrajectory[] valid_grasp_poses
+vojext_msgs/GraspTrajectory[] valid_grasp_poses

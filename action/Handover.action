@@ -1,4 +1,4 @@
-april_msgs/ActionCommon action_common
+vojext_msgs/ActionCommon action_common
 string[] handover
 ---
 bool success
