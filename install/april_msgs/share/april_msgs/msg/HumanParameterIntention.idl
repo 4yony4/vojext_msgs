@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from april_msgs/msg_ros2/sim/HumanParameterIntention.msg
+// generated code does not contain a copyright notice
+
+#include "april_msgs/msg/HumanMotion.idl"
+#include "std_msgs/msg/Header.idl"
+
+module april_msgs {
+  module msg {
+    struct HumanParameterIntention {
+      @verbatim (language="comment", text=
+        " standard ROS header")
+      std_msgs::msg::Header header;
+
+      string motion_prediction;
+
+      float engagement_level;
+
+      float cognitive_level;
+
+      float mood_level;
+
+      sequence<april_msgs::msg::HumanMotion> humanmotion_list;
+    };
+  };
+};

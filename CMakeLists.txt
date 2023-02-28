@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.8)
+project(vojext_msgs)
+
+if(DEFINED ENV{ROS_VERSION})
+  if($ENV{ROS_VERSION} EQUAL "2")
+    # to avoid cmake warning: "Manually-specified variables were not used by the project"
+    unset(CATKIN_INSTALL_INTO_PREFIX_ROOT)
+    unset(CATKIN_SYMLINK_INSTALL)
+    include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/CMakeListsROS2.txt)
+  elseif($ENV{ROS_VERSION} EQUAL "1")
+    include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/CMakeListsROS1.txt)
+  else()
+    message(ERROR "invalid ROS_VERSION environment variable: $ENV{ROS_VERSION}")
+  endif()
+else()
+  message(ERROR "ROS_VERSION environment variable is not set!")
+endif()
