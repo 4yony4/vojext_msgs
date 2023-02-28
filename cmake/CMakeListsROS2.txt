@@ -12,29 +12,48 @@ find_package(geometry_msgs REQUIRED)
   
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  msg_ros2/sem/Emergency.msg
-  msg_ros2/sem/EmergencyRequestStatus.msg
-  msg_ros2/sim_sem/Environment.msg
-  msg_ros2/sim/FatigueAnalysis.msg
-  msg_ros2/sim_sem/HumanBehaviour.msg
-  msg_ros2/sim_sem/HumanGraspingStrategies.msg
-  msg_ros2/sim/HumanHandGesture.msg
-  msg_ros2/sim_sem/HumanMotion.msg
-  msg_ros2/sim/HumanParameterIntention.msg #FLOAT TYPE FAILS BUILD, CHECK FLOAT TYPE
-  msg_ros2/sim/HumanSight.msg
-  msg_ros2/sem/NeuromorphicSensing.msg
-  msg_ros2/sim_sem/PhysicalObject.msg
-  msg_ros2/sim/RobotArm.msg
-  msg_ros2/sim/RobotArmKinematic.msg
-  msg_ros2/sim/RobotGraspingStrategies.msg
-  msg_ros2/sim/RobotHand.msg
-  msg_ros2/sim/RobotHandKinematic.msg
-  msg_ros2/sim_sem/RobotHighLatencyCorrections.msg
-  msg_ros2/sem/RobotLowLatencyCorrections.msg
-  msg_ros2/sim/Tactile.msg
-  msg_ros2/yarp/Output.msg
-  msg_ros2/DummyMsg.msg
-  DEPENDENCIES builtin_interfaces std_msgs
+  msg/Emergency.msg
+  msg/EmergencyRequestStatus.msg
+  msg/Environment.msg
+  msg/FatigueAnalysis.msg
+  msg/HumanBehaviour.msg
+  msg/HumanGraspingStrategies.msg
+  msg/HumanHandGesture.msg
+  msg/HumanMotion.msg
+  msg/HumanParameterIntention.msg #FLOAT TYPE FAILS BUILD, CHECK FLOAT TYPE
+  msg/HumanSight.msg
+  msg/NeuromorphicSensing.msg
+  msg/PhysicalObject.msg
+  msg/RobotArm.msg
+  msg/RobotArmKinematic.msg
+  msg/RobotGraspingStrategies.msg
+  msg/RobotHand.msg
+  msg/RobotHandKinematic.msg
+  msg/RobotHighLatencyCorrections.msg
+  msg/RobotLowLatencyCorrections.msg
+  msg/Tactile.msg
+  msg/Vjxoutput.msg
+  msg/Debug.msg
+  msg/ActionCommon.msg
+  msg/BoundingBox.msg
+  msg/BoundingBoxes.msg
+  msg/ClusteredObject.msg
+  msg/DetectedObject.msg
+  msg/DetectedObjects.msg
+  msg/EnvironmentNode.msg
+  msg/GraspFacts.msg
+  msg/GraspTrajectory.msg
+  msg/Hand.msg
+  msg/ObjectEstimatedPose.msg
+  msg/ObjectsEstimatedPoses.msg
+  msg/Person.msg
+  msg/PersonList.msg
+  msg/SymbolicAction.msg
+  msg/ComponentStatus.msg
+  msg/PassportValidation.msg
+  msg/QualityCheckResult.msg
+  msg/ShelfLife.msg
+  DEPENDENCIES builtin_interfaces std_msgs actionlib_msgs sensor_msgs vision_msgs geometry_msgs
   ADD_LINTER_TESTS
   )
 
@@ -60,6 +79,22 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
-ament_export_dependencies(rosidl_default_runtime)
+#ament_export_dependencies(
+#  rosidl_default_runtime
+#  std_msgs
+#  actionlib_msgs
+#  sensor_msgs
+#  vision_msgs
+#  geometry_msgs
+#  )
+
+#ament_target_dependencies(builtin_interfaces 
+#  rosidl_default_runtime 
+#  std_msgs
+#  actionlib_msgs
+#  sensor_msgs
+#  vision_msgs
+#  geometry_msgs
+#  )
 
 ament_package()
