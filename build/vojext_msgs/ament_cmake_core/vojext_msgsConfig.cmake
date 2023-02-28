@@ -16,7 +16,7 @@ set(_vojext_msgs_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT vojext_msgs_FIND_QUIETLY)
-  message(STATUS "Found vojext_msgs: 0.1.0 (${vojext_msgs_DIR})")
+  message(STATUS "Found vojext_msgs: 0.0.1 (${vojext_msgs_DIR})")
 endif()
 
 # warn when using a deprecated package

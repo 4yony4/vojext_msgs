@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "vojext_msgs")
-set(vojext_msgs_VERSION "0.1.0")
-set(vojext_msgs_MAINTAINER "Sławomir Puchalski <slawomir.puchalski@piap.lukasiewicz.gov.pl>, Michał Bryła <michal.bryla@piap.lukasiewicz.gov.pl>")
+set(vojext_msgs_VERSION "0.0.1")
+set(vojext_msgs_MAINTAINER "Jonathan Z. Bar-Magen Numhauser <jonathan.barmagen@iit.it>")
 set(vojext_msgs_BUILD_DEPENDS "message_generation" "sensor_msgs" "vision_msgs" "geometry_msgs" "actionlib_msgs" "rclcpp" "std_msgs" "sensor_msgs" "vision_msgs" "geometry_msgs")
 set(vojext_msgs_BUILDTOOL_DEPENDS "ament_cmake")
 set(vojext_msgs_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "sensor_msgs" "vision_msgs" "geometry_msgs")

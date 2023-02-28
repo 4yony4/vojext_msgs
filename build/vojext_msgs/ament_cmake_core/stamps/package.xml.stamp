@@ -1,17 +1,21 @@
 <?xml version="1.0"?>
+
 <package format="3">
+
   <name>vojext_msgs</name>
-  <version>0.1.0</version>
+
+  <version>0.0.1</version>
+
   <description>
-    This package defines custom messages and services used in VOJEXT project
+      Package containing msg, srv and action files of VOJEXT system.
   </description>
 
-  <maintainer email="slawomir.puchalski@piap.lukasiewicz.gov.pl">Sławomir Puchalski</maintainer>
-  <maintainer email="michal.bryla@piap.lukasiewicz.gov.pl">Michał Bryła</maintainer>
+  <maintainer email="jonathan.barmagen@iit.it">Jonathan Z. Bar-Magen Numhauser</maintainer>
 
-  <license>TODO</license>
+  <license>BSD</license>
 
 
+  <author email="jonathan.barmagen@iit.it">Jonathan Z. Bar-Magen Numhauser</author>
 
     <!--  ROS1 dependencies -->
   <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
@@ -48,6 +52,7 @@
   <exec_depend condition="$ROS_VERSION == 2">geometry_msgs</exec_depend>
   <exec_depend condition="$ROS_VERSION == 2">std_msgs</exec_depend>
   <exec_depend condition="$ROS_VERSION == 2">actionlib_msgs</exec_depend>
+  
 
   <!-- common dependencies -->
   <depend>std_msgs</depend>

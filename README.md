@@ -44,8 +44,6 @@ Adding a new message in ROS1 and ROS2 should follow the next steps:
 
 Inside the "msg_ros1" folder, add the .msg file with the new message file in ROS1. 
 
-IMPORTANT!! the std_msgs/Header Header should have a "H" capital letter (in the "Header" name variable) in the beginning of the message file.
-
 Then update the CMakeListsROS1.txt, in cmake folder "/cmake/CMakeListROS1.txt".
 
 ### ROS2:
@@ -54,7 +52,6 @@ Inside the "msg_ros2" folder, find the folder related to the module to which the
 
 Then add the new message file to the folder. 
 
-IMPORTANT!! the std_msgs/Header header should have a "h" lower letter (in the "header" name variable) in the beginning of the message file.
 
 ### MAP_RULES:
 
